@@ -30,4 +30,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["pytest", "-vv", "--junitxml=report.xml"]
+CMD ["pytest", "-vv", "--junitxml=/workspace/report.xml"]
+
