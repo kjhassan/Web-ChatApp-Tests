@@ -1,4 +1,0 @@
-selenium==4.19.0
-pytest
-pytest-xdist
-chromedriver-binary==119.0.6045.105.0
